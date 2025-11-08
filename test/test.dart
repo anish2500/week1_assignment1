@@ -46,6 +46,8 @@ void main() {
   );
 
   bank.applyMonthlyInterestToAll();
+  //example for abstraction is hiding implementation where with the simple function call without having to write the internal codes again 
+  // it becomes convinient for the programmer to call it 
   bank.displayReport();
 
   vinayak.showTransactions();

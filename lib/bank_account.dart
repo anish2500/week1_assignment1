@@ -1,4 +1,7 @@
 abstract class BankAccount {
+
+  //Encapsulation refers to data hiding from unnecessary use so here the use of private data via use of underscore 
+  // is the perfect demonstration of how encapsulation is used in the code 
   final int _accountNumber;
   String _accountHolderName;
   double _balance;
@@ -6,6 +9,8 @@ abstract class BankAccount {
   final List<String> _transactions = [];
 
   BankAccount({
+
+    
     required String accountHolderName,
     required int accountNumber,
     required double balance,
